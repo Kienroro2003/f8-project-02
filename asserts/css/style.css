@@ -35,6 +35,11 @@ video {
   overflow: hidden;
 }
 
+.row {
+  display: flex;
+  align-items: center;
+}
+
 .container {
   width: 1170px;
   margin: 0 auto;
@@ -61,10 +66,10 @@ a {
 h1 {
   font-family: "Sen", sans-serif;
   font-weight: 700;
-  font-size: 5.8rem;
-  line-height: calc(68 / 58px);
+  font-size: 5.6rem;
+  line-height: calc(66 / 56);
   letter-spacing: -0.02em;
-  color: #171100;
+  color: var(--primary-color);
 }
 
 h2 {
@@ -93,13 +98,13 @@ h2 {
 
 .menu {
   background: #fffcf4;
-  padding: 32px 0 12px;
+  padding-top: 20px;
   position: sticky;
   top: -20px;
-  margin-bottom: 53px;
 }
 
-.meu-container {
+.menu-container {
+  padding: 12px 0;
 }
 
 .navbar {
@@ -123,10 +128,117 @@ h2 {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: calc(28 / 16);
-  color: #5f5b53;
+  color: var(--second-color);
 }
 
 .navbar .menu-auth .btn-signup {
   padding: 11px 41px 10px;
   line-height: calc(28 / 14);
 }
+
+/* ==========Hero========== */
+
+.hero {
+  height: calc(100vh - 93px);
+  background: #fffcf4;
+  padding: 53px 0 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero .hero-image,
+.hero-content {
+  width: 470px;
+}
+
+.hero .hero-image > img {
+  border-radius: 20px;
+}
+
+.hero .heading {
+  margin-bottom: 22px;
+}
+
+.hero .desc {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: calc(30 / 18);
+  color: var(--second-color);
+  margin-bottom: 38px;
+}
+
+.hero .btn-see {
+  background-color: var(--third-color);
+  padding: 17px 33px 17px 34px;
+  border-radius: 32px;
+  margin-right: 28px;
+}
+
+.hero .video {
+  margin-bottom: 48px;
+}
+
+.hero .video-link {
+  display: flex;
+  align-items: center;
+}
+
+.hero .btn-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
+  margin-right: 14px;
+}
+
+.hero .video-link span {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: calc(30 / 18);
+  color: var(--primary-color);
+}
+
+.hero .hero-stat {
+}
+
+.hero .hero-stat .title {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: calc(30 / 18);
+  color: var(--second-color);
+  margin-bottom: 8px;
+}
+
+.hero .hero-stat .number {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: calc(30 / 18);
+  color: var(--second-color);
+  margin-right: 28px;
+}
+
+.hero .hero-stat .number b {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 4.4rem;
+  line-height: calc(54 / 44);
+  color: var(--primary-color);
+}
+
+/* ==========Menu========== */
+
+/* ==========Menu========== */
+
+/* ==========Menu========== */
+
+/* ==========Menu========== */
