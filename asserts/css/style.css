@@ -59,9 +59,9 @@ a {
   text-decoration: none;
 }
 
-.wrapper {
+/* .wrapper {
   height: 1000vh;
-}
+} */
 
 h1 {
   font-family: "Sen", sans-serif;
@@ -692,4 +692,80 @@ h2 {
   justify-content: center;
 }
 
-/* ==========CTA========== */
+/* ==========Footer========== */
+
+.footer {
+  background: #2e2100;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0 130px;
+  padding-top: 96px;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+}
+
+.footer .title {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: calc(28 / 16);
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+
+.footer .line {
+  width: 130px;
+  height: 1px;
+  background: #59554b;
+  margin-bottom: 28px;
+}
+
+.footer .footer-copyright {
+  padding: 28px 0;
+  text-align: center;
+}
+
+.footer .footer-copyright p {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: calc(26 / 14);
+  color: #807d74;
+}
+
+.footer .list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px 0;
+}
+
+.footer .link,
+span {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: calc(26 / 14);
+  color: #bfbcb2;
+}
+
+.footer b {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.footer .footer-logo {
+  margin-bottom: 18px;
+}
+
+.footer .desc {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: calc(26 / 14);
+  color: #bfbcb2;
+  margin-bottom: 18px;
+}
+
+.footer .social {
+  display: flex;
+  gap: 0 18px;
+}
