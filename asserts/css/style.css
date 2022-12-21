@@ -78,7 +78,7 @@ h2 {
   font-weight: 700;
   font-size: 3.8rem;
   line-height: calc(48 / 38);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.04em;
   color: #130606;
 }
 
@@ -443,19 +443,19 @@ h2 {
   background: #634700;
 }
 
-.testimonial .user .dot.active{
+.testimonial .user .dot.active {
   background-color: var(--third-color);
 }
 
 .testimonial .user-text {
   width: 770px;
-  padding:30px 0 0 28px;
+  padding: 28px 0 0 28px;
   position: relative;
 }
 
-.testimonial .user-text img{
+.testimonial .user-text img {
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
 }
 
@@ -492,6 +492,96 @@ h2 {
   color: #bfbcb3;
 }
 
-/* ==========Menu========== */
+/* ==========Features========== */
 
-/* ==========Menu========== */
+.features {
+  margin-bottom: 200px;
+}
+
+.features-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features .content {
+  width: 470px;
+}
+
+.features .image-block {
+  width: 570px;
+  display: flex;
+  gap: 0 30px;
+}
+
+.features .image-block img {
+  width: calc(50% - 15px);
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.features .image-block img:nth-child(1) {
+  transform: translateY(17px);
+}
+
+.features .image-block img:nth-child(2) {
+  transform: translateY(-17px);
+}
+
+.features .heading {
+  margin-bottom: 16px;
+}
+
+.features .desc {
+  width: 458px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--second-color);
+  margin-bottom: 38px;
+}
+
+.features .btn-features {
+  background-color: var(--third-color);
+  padding: 12px 37px;
+}
+/* ==========CTA========== */
+
+.cta {
+  margin-bottom: 200px;
+}
+
+.cta-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta .content {
+  width: 570px;
+}
+
+.cta .cta-container img {
+  width: 470px;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.cta .content .heading {
+  margin-bottom: 16px;
+}
+
+.cta .content .desc {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: calc(28 / 16);
+  color: var(--second-color);
+  margin-bottom: 38px;
+}
+
+.cta .btn-cta {
+  padding: 12px 32px 12px 31px;
+  background-color: var(--third-color);
+}
