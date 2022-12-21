@@ -413,7 +413,84 @@ h2 {
   color: #fff;
 }
 
-/* ==========Menu========== */
+/* ==========Testimonial========== */
+
+.testimonial {
+  background-color: #2e2100;
+  margin-bottom: 200px;
+}
+
+.testimonial-container {
+  padding: 96px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial .user {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial .user .dots {
+  display: flex;
+  gap: 0 6px;
+  margin-top: auto;
+}
+.testimonial .user .dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+}
+
+.testimonial .user .dot.active{
+  background-color: var(--third-color);
+}
+
+.testimonial .user-text {
+  width: 770px;
+  padding:30px 0 0 28px;
+  position: relative;
+}
+
+.testimonial .user-text img{
+  position: absolute;
+  top:0;
+  left: 0;
+}
+
+.testimonial .user-text .text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.6rem;
+  line-height: calc(40 / 26);
+  color: #ffffff;
+}
+
+.testimonial .user .user-image {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 18px;
+}
+
+.testimonial .user .user-name {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: calc(34 / 24);
+  color: #f7f7f7;
+  margin-bottom: 4px;
+}
+
+.testimonial .user .user-desc {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: calc(26 / 14);
+  color: #bfbcb3;
+}
 
 /* ==========Menu========== */
 
